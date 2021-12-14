@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* a[target] {
+            background-color: red;
+        } */
+        /* a[target="_blank"] {
+            background-color: red;
+        } */
+        /* img[title~="blue"] {
+            border: 5px solid red;
+        } */
+        /* img[title^="blue"] {
+            border: 5px solid red;
+        } */
+        /* img[title$="flower"] {
+            border: 5px solid red;
+        } */
+        img[title*="flower"] {
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://w3schools.com">w3schools.com</a>
+    <a href="http://disney.com" target="_blank">Disney.com</a>
+    <a href="http://wikipedia.org" target="_top">wikipedia.org</a> 
+    <img src="klematis.jpg" title="blue flower">
+    <img src="klematis2.jpg" title="purple flowers">
+    <img src="klematis3.jpg" title="two blue flowers">  
+</body>
+</html>
